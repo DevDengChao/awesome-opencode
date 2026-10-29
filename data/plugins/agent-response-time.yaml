@@ -1,0 +1,12 @@
+name: Agent Response Time
+repo: https://github.com/DevDengChao/opencode-plugin-show-agent-response-time
+tagline: Exact completion timestamps for agent responses in OpenCode Desktop
+description: >-
+  Makes the response duration shown under each assistant message in the OpenCode
+  Desktop session timeline hoverable, revealing the exact wall-clock completion
+  time of that turn (date, time zone, seconds) with the same compact tooltip and
+  locale formatting as the built-in user-message timestamp. Reads the turn's
+  latest assistant time.completed from the current session, is display-only, and
+  cleans up after virtual scrolling, re-renders, session switches and plugin
+  reloads. Requires OpenCode Desktop 2.2.x (experimental GUI plugin API); TUI is
+  not supported.
