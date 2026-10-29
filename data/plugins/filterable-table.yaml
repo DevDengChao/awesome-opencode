@@ -1,0 +1,10 @@
+name: Filterable Table
+repo: https://github.com/DevDengChao/opencode-plugin-filterable-table
+tagline: Column filters for Markdown tables in OpenCode Desktop sessions
+description: >-
+  Adds a funnel button to every Markdown table header in the OpenCode Desktop session
+  timeline. Choose the values to keep per column, with multi-select and search, AND
+  across columns and OR within one. A footer shows "showing X of Y rows" and can clear
+  every filter in one click, and a command-palette action resets all tables. Filtering
+  is display-only: the Markdown, session data, and other clients are untouched. Follows
+  OpenCode's light/dark theme and zh/en UI. Requires OpenCode Desktop 2.2.x.
